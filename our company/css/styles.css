@@ -25,7 +25,7 @@ body {
             font-weight: bold;
             margin-bottom: 80px;
             flex-wrap: wrap-reverse;
-            background: linear-gradient(to right, #ff0000, #0000ff);
+            background: linear-gradient(to right, #251515, #0000ff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
 
@@ -310,6 +310,7 @@ body.dark-mode .nav-links a {
 
 .text-content {
   max-width: 600px;
+  
   animation: slideInLeft 1s ease-out;
 }
 
@@ -575,14 +576,12 @@ body.dark-mode .list-item {
 }
 
 
-
-
-
 /* قسم OUR COMPANY كامل الشاشة */
 /* Cards Container */
 .card-container {
+    display: flex ;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(60px, 4fr));
   gap: 20px;
   padding: 40px 20px;
   background-color: #f4f4f4;
